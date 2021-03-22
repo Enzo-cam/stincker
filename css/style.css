@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+:root{
+    --primary-color: #047aed;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Lato, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul{
+    list-style-type: none; /*Quita efecto de lista*/
+}
+
+a {
+    text-decoration: none; /*Saca el efecto de link*/
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%; /*Que ocupe todo el ancho del container en el que este dentro*/
+}
+/*Nav Bar*/
+.nav-bar {
+    background-color: var(--primary-color);
+    color: white;
+    height: 70px;
+}
+
+.nav-bar .flex{
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar a {
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+}
+.nav-bar a:hover{
+    border-bottom: 1px white solid;
+}
+
+/*Showcase*/
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative; /*Para poder ubicar elementos ABSOLUTE, dejamos a este contenedor como Relative*/
+}
+
+.showcase h1{
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.showcase .grid{
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+/*Utilities*/
+.container{
+    max-width: 1100px; /*Lo maximo que puede ocupar de ancho este container es 1100px*/
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
