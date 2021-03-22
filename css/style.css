@@ -84,7 +84,7 @@ img {
     gap: 30px;
 }
 
-.showcase-form{
+.showcase-form{ /*Ubica al form del SHOWCASE y ajusta tamano*/
     position: relative;
     top: 60px;
     height: 350px;
@@ -108,7 +108,7 @@ img {
     font-size: 16px;
 }
 
-.showcase-form input:focus {
+.showcase-form input:focus { /*Quita las lineas del input del showcase*/
     outline: none;
 }
 
@@ -120,13 +120,32 @@ img {
     padding: 0 40px;
 }
 
-.card {
+.card { /*Da un estilo al card*/
     background-color: white;
     color: #333;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px white solid;
+}
+
+.btn:hover {
+    transform: scale(0.98);
 }
 
 .flex {
