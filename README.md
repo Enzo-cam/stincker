@@ -17,8 +17,8 @@
 
 **Enzo Cámera** - *Frontend JR - UX/UI Designer* - 
 
-* [LinkedIn](https://www.linkedin.com/in/arrecode/)
-* [Github](https://github.com/axelromero99)
+* [LinkedIn](https://www.linkedin.com/in/enzo-camera/)
+* [Github](https://github.com/EnzoCam7)
 
 ## Express your gratitude 🎁
 
